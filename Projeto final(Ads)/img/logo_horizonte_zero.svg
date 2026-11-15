@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 200" width="560" height="200" role="img" aria-label="Logo da Horizonte Zero">
+  <defs>
+    <!-- Brilho do Sol -->
+    <radialGradient id="brilho" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#f5a623" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#f5a623" stop-opacity="0"/>
+    </radialGradient>
+    <!-- Cor do planeta -->
+    <linearGradient id="planeta" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b6cc4"/>
+      <stop offset="100%" stop-color="#0b1a3d"/>
+    </linearGradient>
+    <!-- Recorte circular do icone -->
+    <clipPath id="recorte">
+      <circle cx="100" cy="100" r="56"/>
+    </clipPath>
+  </defs>
+
+  <!-- Fundo escuro: a logo funciona em qualquer cor de pagina -->
+  <rect width="560" height="200" rx="18" fill="#0b1026"/>
+
+  <!-- Icone -->
+  <g clip-path="url(#recorte)">
+    <circle cx="100" cy="100" r="56" fill="#060a1c"/>
+    <!-- Estrelas -->
+    <circle cx="68" cy="62" r="1.6" fill="#ffffff"/>
+    <circle cx="132" cy="66" r="1.4" fill="#ffffff"/>
+    <circle cx="114" cy="50" r="1.8" fill="#ffffff"/>
+    <circle cx="84" cy="48" r="1.2" fill="#ffffff"/>
+    <circle cx="144" cy="84" r="1.2" fill="#ffffff"/>
+    <!-- Sol nascendo no horizonte -->
+    <circle cx="100" cy="86" r="30" fill="url(#brilho)"/>
+    <circle cx="100" cy="86" r="11" fill="#f5a623"/>
+    <!-- Planeta com a linha do horizonte -->
+    <circle cx="100" cy="168" r="82" fill="url(#planeta)" stroke="#5ec8ff" stroke-width="3"/>
+  </g>
+  <!-- Anel externo -->
+  <circle cx="100" cy="100" r="56" fill="none" stroke="#5ec8ff" stroke-width="3"/>
+
+  <!-- Nome da empresa -->
+  <text x="188" y="98" font-family="Orbitron, 'Exo 2', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="5" fill="#ffffff">HORIZONTE</text>
+  <text x="188" y="146" font-family="Orbitron, 'Exo 2', Arial, sans-serif" font-size="42" font-weight="700" letter-spacing="22" fill="#f5a623">ZERO</text>
+</svg>

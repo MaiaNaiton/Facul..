@@ -1,9 +1,43 @@
+html{
+    border: 2px solid #5EC8FF;
+    margin: 3px;
+    padding: 5px;
+}
 body{
     background-color: #F5A623;
+
 }
 div{
     background: #0B1026;
+    border: 1px solid;
+    border-top-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+    margin: 8px;
 }
-h1, h2, p{
+h1{
+    color: #0B1026;
+}
+h2{
     color: #2B6CC4;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+p{
+    background: #0B1026;
+    color: #F5A623;
+    border: 1px solid;
+    border-radius: 25px;
+    margin: 17px;
+    padding: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+table{
+    background: #0B1026;
+    color: #F5A623;
+    border: 1px solid;
+    border-bottom-left-radius: 24px;
+    border-top-right-radius: 24px;
+    margin: 17px;
+    padding: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }

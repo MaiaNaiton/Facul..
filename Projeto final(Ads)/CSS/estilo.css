@@ -1,11 +1,10 @@
 html{
-    border: 2px solid #5EC8FF;
-    margin: 3px;
-    padding: 5px;
+    border: 1px solid #5EC8FF;
+    margin: 1px;
+    padding: 1px;
 }
 body{
-    background-color: #F5A623;
-
+    background-color: white;
 }
 div{
     background: #0B1026;
@@ -16,18 +15,22 @@ div{
 }
 h1{
     color: #0B1026;
+    text-align: center;
 }
 h2{
     color: #2B6CC4;
+    width: 500px;
+    text-align: right;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 p{
-    background: #0B1026;
-    color: #F5A623;
-    border: 1px solid;
-    border-radius: 25px;
-    margin: 17px;
-    padding: 24px;
+    background: #5EC8FF;
+    color: #0B1026;
+    border-left: 12px solid #0B1026;
+    border-right: 12px solid #0B1026;
+    padding: 8px;
+    border-radius: 20px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 table{
@@ -36,8 +39,28 @@ table{
     border: 1px solid;
     border-bottom-left-radius: 24px;
     border-top-right-radius: 24px;
-    margin: 17px;
+    margin: 20px auto;
     padding: 24px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+td{
+    padding: 12px 15px;
+    
+}
+a{
+    color: #0B1026;
+    background-color: #5EC8FF;
+    font-weight: bold;
+    padding: 3px 9px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    display: inline-block;
+}
 
+/*Imagens da página */
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }

@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Horizonte zero. | O céu não é o limite.</title>
-    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="stylesheet" href="CSS/estilo.css"> <!--Estilizando a página -->
 </head>
 <body>
     <header id="home">
     <div>
-        <img src="img/logo_horizonte_zero.svg" alt="logo"
+        <img id="logo" src="img/logo_horizonte_zero.svg" alt="logo"
         height="110"
         title="logo">
 
@@ -26,7 +26,7 @@
         <p>
                 Somos a <strong>primeira empresa brasileira de turismo espacial.</strong>
                 Desde 2011, nossa equipe de engenheiros e ex-astronautas 
-                transforma um sonho antigo em realidade: <strong>levar pessoas <br>comuns 
+                transforma um sonho antigo em realidade: <strong>levar pessoas comuns 
                 além da atmosfera.</strong>  Do voo suborbital à rota lunar, cada jornada 
                 começa com preparação completa e termina com <em>uma memória que nenhuma 
                 fotografia consegue expressar.</em>
@@ -67,7 +67,7 @@
         <section id="missao">
         <h2>Missão</h2>
         <table>
-            <caption>Comparativo das missões</caption>
+            <caption><strong>Comparativo das missões</strong></caption>
             <thead>
             <tr>
                 <th scope="col">Missão</th>
@@ -104,9 +104,7 @@
             </tbody>
         </table>
         <a href="#reserva">Reserve sua viagem.</a>
-        <img src="img/missao.webp" alt="missão"
-        height="275"
-        title="Capsula em orbida da terra.">
+
         </section>
         <section>
                 <!------------Reserva de viagens-->
@@ -115,25 +113,29 @@
 
         <form action="#">
             <fieldset>
-            <input type="text" name="name" id="nome" placeholder="Digite seu nome"> 
+            <legend>Dados para reserva.</legend>
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
             <label for="nome">Nome</label>
-            <input type="text" name="Whatsapp" id="Whatsapp" placeholder="n° de contato"> 
-            <label for="WhatsApp">WhatsApp</label>
-            <input type="text" name="Email" id="Email" placeholder="Digite seu e-mail"> 
+
+            <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
+            <label for="whatsapp">WhatsApp</label>
+
+            <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
             <label for="Email">Email</label>
+
             <input type="radio" name="genero" value="masculino" id="masculino">
             <label for="masculino">Masculino</label>
+
             <input type="radio" name="genero" value="feminino" id="feminino">
             <label for="feminino">Feminino</label>
             
-            <p>Escolha a classe de voo</p>
-            <select name="Classes" id="Classes">
+            <label for="classes">Escolha a classe de voo</label>
+            <select name="classes"  id="classes">
                 <option value="primeira">Primeira classe</option>
                 <option value="executiva">Classe executiva</option>
                 <option value="economica">Classe econômica</option>
             </select>
-            <input type="submit" name="Cadastrar" value="enviar" id="Cadastrar">
-            <legend>Dados para reserva.</legend>
+            <button type="submit" id="enviar">Enviar</button>
             </fieldset>
         </form>
     
@@ -167,23 +169,23 @@
     <address> <!--Endereço e contatos-->
         <p id="contato">
         Endereço:
-        Centro de Lançamento Horizonte Zero <br>
-        Av. das Estrelas, 100, Base Espacial <br>
-        Alcântara, Maranhão, Brasil <br>
+        Centro de Lançamento Horizonte Zero 
+        Av. das Estrelas, 100, Base Espacial 
+        Alcântara, Maranhão, Brasil 
 
-        Telefone: (98) 90000-0000 <br>
-        WhatsApp: (98) 90000-0001 <br>
-        E-mail: contato@horizontezero.com.br <br>
-        Atendimento: segunda a sexta, das 8h às 18h <br>
+        Telefone: (98) 90000-0000 
+        WhatsApp: (98) 90000-0001 
+        E-mail: contato@horizontezero.com.br 
+        Atendimento: segunda a sexta, das 8h às 18h 
         </p>
     </address>
 
     <p>
-        © 2026 Horizonte Zero Turismo Espacial Ltda. Todos os direitos reservados. <br>
-        CNPJ 00.000.000/0001-00 (fictício) <br>
-        <br>
-        Projeto acadêmico fictício, desenvolvido para a disciplina de Desenvolvimento Web. <br>
-        Sem fins comerciais. <br>
+        © 2026 Horizonte Zero Turismo Espacial Ltda. Todos os direitos reservados. 
+        CNPJ 00.000.000/0001-00 (fictício) 
+      
+        Projeto acadêmico fictício, desenvolvido para a disciplina de Desenvolvimento Web. 
+        Sem fins comerciais.
     </p>
     </footer>
 </body>

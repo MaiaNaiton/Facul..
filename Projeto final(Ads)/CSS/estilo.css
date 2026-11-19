@@ -6,7 +6,7 @@ html{
 body{
     background-color: white;
 }
-div{
+header{
     background: #0B1026;
     border: 1px solid;
     border-top-left-radius: 23px;
@@ -18,10 +18,8 @@ h1{
     text-align: center;
 }
 h2{
-    color: #2B6CC4;
-    width: 500px;
-    text-align: right;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #0B1026;
+    text-align: center;
 }
 p{
     background: #5EC8FF;
@@ -31,6 +29,33 @@ p{
     padding: 8px;
     border-radius: 20px;
     text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.navegar{
+    text-align: right;
+}
+.apresentar{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.destaque{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.quem_somos{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.caption-missão{
+    font: optional;
+    color: #F5A623;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 table{
@@ -56,6 +81,10 @@ a{
     border-radius: 6px;
     font-family: sans-serif;
     display: inline-block;
+}
+.formulário{
+    display: flex;
+    flex-direction: column;
 }
 
 /*Imagens da página */

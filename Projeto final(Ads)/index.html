@@ -7,23 +7,25 @@
     <link rel="stylesheet" href="CSS/estilo.css"> <!--Estilizando a página -->
 </head>
 <body>
-    <header id="home">
-    <div>
+    <header id="home">  <!---------------------------------------------Cabeçalho do site-->
         <img id="logo" src="img/logo_horizonte_zero.svg" alt="logo"
         height="110"
         title="logo">
 
-    <nav>
-        <!--Botões iniciais-->
-        <!--Âncoragem-->
+    <nav class="navegar"> <!-------------------------------Botões de navegação e Âncoragem-->
         <a href="#quem_somos" class="botao">Quem somos</a>
         <a href="#missao" class="botao">Missão</a>
         <a href="#reserva" class="botao">Reserve sua viagem</a>
     </nav>
-    </div>
+    </header>
 
+    <section> <!------------------------Seção de apresentação da página-->
         <h1>Bem-vindo à Horizonte Zero</h1>
-        <p>
+        <div class="apresentar">
+            <img src="img/capsula_acoplamento.jpeg" alt="Turismo espacial"
+            height="350"
+            title="Turismo espacial">
+            <p>
                 Somos a <strong>primeira empresa brasileira de turismo espacial.</strong>
                 Desde 2011, nossa equipe de engenheiros e ex-astronautas 
                 transforma um sonho antigo em realidade: <strong>levar pessoas comuns 
@@ -31,43 +33,41 @@
                 começa com preparação completa e termina com <em>uma memória que nenhuma 
                 fotografia consegue expressar.</em>
             </p>
-            <img src="img/capsula_acoplamento.jpeg" alt="Turismo espacial"
-            height="275"
-            title="Turismo espacial">
-    </header>
+        </div>
+    </section>
+
     <main>
-        
-    <!--Área de destaque da página-->
-        <section id="sobre" class="destaque">
+        <section><!-------------------------Área de destaque da página-->
             <h2>Imagine um lugar...</h2>
-            <p>
-                ...onde você possa se sentir livre sem a gravidade ao seu redor para te segurar...
-            </p>
-            <img src="img/gravidade_zero.jpeg" alt="Micro gravidade"
-            height="275"
-            title="Micro gravidade">
-            
+            <div class="destaque">
+                <p>
+                    ...onde você possa se sentir livre sem a gravidade ao seu redor para te segurar...
+                </p>
+                <img src="img/gravidade_zero.jpeg" alt="Micro gravidade"
+                height="350"
+                title="Micro gravidade">
+            </div>
         </section>
         <section>
             <!---------------Quem somos-->
-        <h2 id="quem_somos">Quem somos</h2>
-        <img src="img/por_dentro_da_nave.jpg" alt="Dentro da nave"
-        height="275"
-        title="Por dentro">
-        <p>A Horizonte Zero é uma empresa de turismo espacial brasileira, 
-            fundada em 2011 por Nio Maia e sua equipe de engenheiros e 
-            astronautas, com base de lançamento no Centro de Alcântara, 
-            no Maranhão. A missão é levar pessoas comuns ao espaço com 
-            segurança, conforto e uma experiência inesquecível.</p>
-       
-        <a href="#home" class="botao">Home</a>
-     
+        <h2>Quem somos</h2>
+        <div class="quem_somos">
+            <img src="img/por_dentro_da_nave.jpg" alt="Dentro da nave"
+            height="350"
+            title="Por dentro">
+            <p>A Horizonte Zero é uma empresa de turismo espacial brasileira, 
+                fundada em 2011 por Nio Maia e sua equipe de engenheiros e 
+                astronautas, com base de lançamento no Centro de Alcântara, 
+                no Maranhão. A missão é levar pessoas comuns ao espaço com 
+                segurança, conforto e uma experiência inesquecível.</p>
+        </div>
+        <a href="#home" class="botao">Home</a>    
         </section>
-            <!--Missão-->
-        <section id="missao">
+
+        <section id="missao"><!----------------------Missão-->
         <h2>Missão</h2>
         <table>
-            <caption><strong>Comparativo das missões</strong></caption>
+            <caption class="caption-missão">Comparativo das missões</caption>
             <thead>
             <tr>
                 <th scope="col">Missão</th>
@@ -104,7 +104,6 @@
             </tbody>
         </table>
         <a href="#reserva">Reserve sua viagem.</a>
-
         </section>
         <section>
                 <!------------Reserva de viagens-->
@@ -112,22 +111,22 @@
         <h3>Próximos lançamentos</h3>
 
         <form action="#">
-            <fieldset>
+            <fieldset class="formulário">
             <legend>Dados para reserva.</legend>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
             <label for="nome">Nome</label>
-
-            <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
+            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
+            
             <label for="whatsapp">WhatsApp</label>
+            <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
 
-            <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
             <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
 
-            <input type="radio" name="genero" value="masculino" id="masculino">
             <label for="masculino">Masculino</label>
+            <input type="radio" name="genero" value="masculino" id="masculino">
 
-            <input type="radio" name="genero" value="feminino" id="feminino">
             <label for="feminino">Feminino</label>
+            <input type="radio" name="genero" value="feminino" id="feminino">
             
             <label for="classes">Escolha a classe de voo</label>
             <select name="classes"  id="classes">

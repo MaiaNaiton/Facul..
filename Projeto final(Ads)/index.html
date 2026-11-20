@@ -60,7 +60,7 @@
                 no Maranhão. A missão é levar pessoas comuns ao espaço com 
                 segurança, conforto e uma experiência inesquecível.</p>
         </div>
-        <a href="#home" class="botao">Home</a>    
+        <a href="#home" class="botao2">Home</a>    
         </section>
 
         <section id="missao"><!----------------------Missão-->
@@ -102,64 +102,63 @@
             </tr>
             </tbody>
         </table>
-        <a href="#reserva">Reserve sua viagem.</a>
         </section>
-        <section>
+
+        <section class="seção-formulário">
+        <a href="#reserva">Reserve sua viagem.</a>
                 <!------------Reserva de viagens-->
-        <h2 id="reserva">Reserve</h2>
-        <h3>Próximos lançamentos</h3>
+        <h2>O horizonte é só o começo!</h2>
+        <img class="img-lancamento" src="img/falcon-9-e-dragon.png" alt="lançamento"
+        height="450"
+        title="lançamento">
+        <h3 id="reserva">Próximos lançamentos</h3>
+        <div class="união-imagem-formulário">
 
-        <form action="#">
-            <fieldset class="formulário">
-            <legend>Dados para reserva.</legend>
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
-            
-            <label for="whatsapp">WhatsApp</label>
-            <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
-
-            <label for="Email">Email</label>
-            <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
-
-            <label for="masculino">Masculino</label>
-            <input type="radio" name="genero" value="masculino" id="masculino">
-
-            <label for="feminino">Feminino</label>
-            <input type="radio" name="genero" value="feminino" id="feminino">
-            
-            <label for="classes">Escolha a classe de voo</label>
-            <select name="classes"  id="classes">
-                <option value="primeira">Primeira classe</option>
-                <option value="executiva">Classe executiva</option>
-                <option value="economica">Classe econômica</option>
-            </select>
-            <button type="submit" id="enviar">Enviar</button>
+        <form>
+            <fieldset>
+                <legend class="legenda-formulário">Dados para reserva.</legend>
+                <div class="preenchimento-texto">
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
+                    <label for="whatsapp">WhatsApp</label>
+                    <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
+                    <label for="Email">Email</label>
+                    <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
+                </div>
+                <div class="escolha-genero">
+                    <span>Gênero:</span>
+                    <label for="masculino">Masculino</label>
+                    <input type="radio" name="genero" value="masculino" id="masculino">
+                    <label for="feminino">Feminino</label>
+                    <input type="radio" name="genero" value="feminino" id="feminino">
+                </div>
+                <div class="classe-voo">
+                    <label for="classes">Escolha a classe de voo</label>
+                    <select name="classes"  id="classes">
+                        <option value="primeira">Primeira classe</option>
+                        <option value="executiva">Classe executiva</option>
+                        <option value="economica">Classe econômica</option>
+                    </select>
+                </div>
+                <button type="submit" id="enviar">Enviar</button>
             </fieldset>
         </form>
-    
-        
-        <img src="img/lancamento.jpg" alt="lançamento"
-        height="275"
-        title="lançamento">
-   
-        <a href="#home" class="botao">Home</a>
-   
 
+        </div>
+
+        <a href="#home" class="botao2">Home</a>
         </section>
+
     </main>
         <!--Rodapé-->
     <footer>
-        <p>
-            <strong>O horizonte é só o começo.</strong>
-        </p>
 
     <img src="img/instagram.svg" alt="instagram">
     <img src="img/youtube.svg" alt="youtube">
     <img src="img/facebook.svg" alt="facebook">
 
-    <p>
-        <strong>Informações complementares</strong>
-    </p><!--Primeira listas-->
+    <h3>Informações complementares</h3>
+    <!--Primeira listas-->
     <ul>
         <li><a href="#contato">Fale conosco</a></li>
         <li><a href="#reserva">Planeje sua viagem</a></li>
@@ -167,12 +166,12 @@
     <address> <!--Endereço e contatos-->
         <p id="contato">
         Endereço:
-        Centro de Lançamento Horizonte Zero 
-        Av. das Estrelas, 100, Base Espacial 
+        Centro de Lançamento Horizonte Zero <br>
+        Av. das Estrelas, 100, Base Espacial <br>
         Alcântara, Maranhão, Brasil <br>
 
-        Telefone: (98) 90000-0000 <br>
-        WhatsApp: (98) 90000-0001 <br>
+        Telefone: (62) 94000-7040 <br>
+        WhatsApp: (62) 93000-8001 <br>
         E-mail: contato@horizontezero.com.br <br>
         Atendimento: segunda a sexta, das 8h às 18h 
         </p>

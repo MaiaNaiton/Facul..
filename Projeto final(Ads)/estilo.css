@@ -1,11 +1,13 @@
 body{
     background-color: rgb(113, 144, 145);
 }
+/*                  Logo da página                  */
 #logo{
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
+/*              Cabeçalho          */
 header{
     background: #0B1026;
     border: 1px solid;
@@ -13,7 +15,7 @@ header{
     border-bottom-right-radius: 23px;
     margin: 8px;
 } 
-/*Estilização de parágrafos e títulos da página*/
+/*          Títulos e parágrafos      */
 h1{
     color: #0B1026;
     text-align: center;
@@ -32,12 +34,12 @@ p{
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*              Imagens da página               */
 img{
     display: flex;
     border-radius: 15px;
 }
-
-/*Atributos de navegação da página*/
+/*                  Atributos de navegação da página*/
 .navegar{
     text-align: right;
 }
@@ -64,6 +66,7 @@ img{
     font-size: 22px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+/*          Tabelas de missões    */
 table{
     background: #0B1026;
     color: #F5A623;
@@ -76,19 +79,37 @@ table{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 td{
-    padding: 12px 15px;
-    
+    padding: 12px 15px;  
 }
+/*             botões de interação              */
 a{
     color: #0B1026;
     background-color: #5EC8FF;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 3px 9px;
+    border-radius: 6px;
+    font-family: sans-serif;
+    display: inline-block;
+}
+a:hover{
+    background-color: #F5A623;
+}
+button{
+    color:#5EC8FF;
+    background-color: #0B1026;
     font-weight: bold;
     padding: 3px 9px;
     border-radius: 6px;
     font-family: sans-serif;
     display: inline-block;
 }
-/*Formulário da página*/
+button:hover{
+    background-color: #F5A623;
+    color: #0B1026;
+}
+
+/*                  Formulário da página                */
 .img-lancamento{
     display: block;
     margin-left: auto;
@@ -135,5 +156,7 @@ input{
     font-family: inherit;
     margin-bottom: 12px;
     margin-top: 12px;
-
+}
+li{
+    margin: 5px;
 }

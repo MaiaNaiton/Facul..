@@ -99,6 +99,7 @@ button{
     color:#5EC8FF;
     background-color: #0B1026;
     font-weight: bold;
+    margin-top: 10px;
     padding: 3px 9px;
     border-radius: 6px;
     font-family: sans-serif;
@@ -122,13 +123,16 @@ button:hover{
     margin: 7px;
     align-items: flex-start;
 }
-.escolha-genero{
-    margin: 15px;
+.escolha-genero span{
+    margin: 8px;
     margin-left: auto;
+    display: block;
 }
-.classe-voo{
-    margin: 15px;
+.classe-voo label{
+    margin: 8px;
     margin-left: auto;
+    display: block;
+
 }
 fieldset{
     background: #5EC8FF;

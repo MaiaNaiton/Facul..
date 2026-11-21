@@ -6,6 +6,7 @@
     <title>Horizonte zero. | O céu não é o limite.</title>
     <link rel="stylesheet" href="estilo.css"> <!--Estilizando a página -->
 </head>
+
 <body>
     <header id="home">  <!---------------------------------------------Cabeçalho do site-->
         <img id="logo" src="img/logo_horizonte_zero.svg" alt="logo"
@@ -114,17 +115,17 @@
         <h3 id="reserva">Próximos lançamentos</h3>
         <div class="união-imagem-formulário">
 
-<!--            Formulário e cadastro da páginas        -->
-        <form>
+<!--            Formulário de cadastro da páginas        -->
+        <form id="formu">
             <fieldset>
                 
                 <div class="preenchimento-texto">
-                    <label for="nome">Nome</label>
+                    <label for="nome">Nome:</label>
                     <input type="text" name="nome" id="nome" placeholder="Digite seu nome"> 
-                    <label for="whatsapp">WhatsApp</label>
+                    <label for="whatsapp">WhatsApp:</label>
                     <input type="tel" name="whatsapp" id="whatsapp" placeholder="n° de contato"> 
-                    <label for="Email">Email</label>
-                    <input type="email" name="Email" id="Email" placeholder="Digite seu e-mail"> 
+                    <label for="email">E-mail:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu e-mail"> 
                 </div>
                 <div class="escolha-genero">
                     <span>Gênero:</span>
@@ -135,7 +136,7 @@
                 </div>
                 <div class="classe-voo">
                     <label for="classes">Escolha a classe de voo</label>
-                    <select name="classes"  id="classes">
+                    <select name="classes" id="classes">
                         <option value="primeira">Primeira classe</option>
                         <option value="executiva">Classe executiva</option>
                         <option value="economica">Classe econômica</option>
@@ -145,7 +146,6 @@
             </fieldset>
         </form>
         </div>
-
     <!--            Retorne a home          -->
         <a href="#home" class="botao2">Home</a>
         </section>
@@ -190,8 +190,10 @@
         CNPJ 00.000.000/0001-00 (fictício) 
     </p>
     <p>
-        Projeto acadêmico fictício, desenvolvido por <strong>Naiton Maia</strong> para a disciplina de <strong>desenvolvido web</strong>.
+        Projeto acadêmico fictício, desenvolvido por <strong>Naiton Maia</strong> para a disciplina de <strong>desevolvimento web</strong>.
     </p>
     </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
